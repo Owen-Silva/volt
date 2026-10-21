@@ -1,0 +1,36 @@
+# secrets
+.env
+*.env
+*.pem
+*.key
+*token*.json
+*secret*
+*credential*
+*.pickle
+*cookies*
+
+# deps / build
+node_modules/
+dist/
+build/
+.cache/
+__pycache__/
+
+# logs
+logs/
+*.log
+*.err
+
+# local provider extensions (src/local-providers.js): "<name>.local/" dirs
+*.local
+*.local/
+
+# per-project VOLT config and ledgers/transcripts never belong in the repo
+.volt/
+.volt.json
+*.jsonl
+
+# OS / tooling noise
+.DS_Store
+Thumbs.db
+coverage/

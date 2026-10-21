@@ -1,0 +1,37 @@
+{
+  "name": "volt",
+  "version": "0.7.2",
+  "description": "A terminal AI copilot: agent mode, streaming chat, sessions, cost tracking, code review, templates, compare, plugins, images. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "volt": "volt.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "volt.js",
+    "src"
+  ],
+  "scripts": {
+    "start": "node volt.js",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "llm",
+    "chat",
+    "gpt",
+    "claude",
+    "ollama",
+    "terminal",
+    "copilot"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owen-Silva/volt.git"
+  },
+  "homepage": "https://github.com/Owen-Silva/volt"
+}
