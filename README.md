@@ -67,9 +67,9 @@ node volt.js --help
 
 ## Authentication
 
-VOLT uses an Anthropic API key for Claude. Claude subscription sign-in is not
-available yet. It will be added if Anthropic approves it; for now use an API
-key.
+VOLT uses an Anthropic API key for Claude, the method Anthropic documents for
+third-party apps. Signing in with a Claude subscription is not offered:
+Anthropic requires its approval for third-party apps to offer it.
 
 Create a key at [console.anthropic.com](https://console.anthropic.com/settings/keys)
 (it starts with `sk-ant-api`), then give it to VOLT in one of two ways. The
